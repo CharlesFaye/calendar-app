@@ -47,8 +47,8 @@ const addDaysStartingSunday = () => {
       currentMonth === date.getMonth() &&
       currentYear === date.getFullYear()
     ) {
-      div.classList.add('border');
-      
+      div.style.border = "2px solid #068ce6";
+      div.style.padding = "0px 5px 0px 5px";
     }
     daysOfMonth.append(div);
     dayOne++;
@@ -78,7 +78,8 @@ const addDaysStartingMonday = () => {
       currentMonth === date.getMonth() &&
       currentYear === date.getFullYear()
     ) {
-      div.classList.add('border');
+      div.style.border = "2px solid #068ce6";
+      div.style.padding = "0px 5px 0px 5px";
     }
     daysOfMonth.append(div);
     dayOne++;
@@ -110,7 +111,8 @@ const addDaysStartingTuesday = () => {
       currentMonth === date.getMonth() &&
       currentYear === date.getFullYear()
     ) {
-      div.classList.add('border');
+      div.style.border = "2px solid #068ce6";
+      div.style.padding = "0px 5px 0px 5px";
     }
     daysOfMonth.append(div);
     dayOne++;
@@ -141,7 +143,8 @@ const addDaysStartingWednesday = () => {
       currentMonth === date.getMonth() &&
       currentYear === date.getFullYear()
     ) {
-      div.classList.add('border');
+      div.style.border = "2px solid #068ce6";
+      div.style.padding = "0px 5px 0px 5px";
     }
     daysOfMonth.append(div);
     dayOne++;
@@ -174,7 +177,8 @@ const addDaysStartingThursday = () => {
       currentMonth === date.getMonth() &&
       currentYear === date.getFullYear()
     ) {
-      div.classList.add('border', 'p-3');
+      div.style.border = "2px solid #068ce6";
+      div.style.padding = "0px 5px 0px 5px";
     }
     daysOfMonth.append(div);
     dayOne++;
@@ -209,7 +213,8 @@ const addDaysStartingFriday = () => {
       currentMonth === date.getMonth() &&
       currentYear === date.getFullYear()
     ) {
-      div.classList.add('border');
+      div.style.border = "2px solid #068ce6";
+      div.style.padding = "0px 5px 0px 5px";
     }
     daysOfMonth.append(div);
     dayOne++;
@@ -245,7 +250,8 @@ const addDaysStartingSaturday = () => {
       currentMonth === date.getMonth() &&
       currentYear === date.getFullYear()
     ) {
-      div.classList.add('border');
+      div.style.border = "2px solid #068ce6";
+      div.style.padding = "0px 5px 0px 5px";
     }
     daysOfMonth.append(div);
     dayOne++;
