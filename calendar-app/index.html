@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- MAIN STYLESHEET -->
+    <link rel="stylesheet" href="src/style.css">
+    <!-- FONT AWESOME LIBRARY-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar app</title>
+  </head>
+  <body>
+    <div id="wrapper" class="md:mx-auto md:w-1/2 m-5 max-w-full">
+      <h1 class="text-3xl uppercase underline underline-offset-8 text-center">Calendrier <span id="current-year"></span></h1>
+      <div class="flex justify-between items-end mt-12">
+        <h2 id="current-month" class="text-2xl uppercase order-2 animate-fade-in"></h2>
+        <i id="previous" class="fa-solid fa-chevron-left text-2xl cursor-pointer order-1 text-blue-500"></i>
+        <i id="next" class="fa-solid fa-chevron-right text-2xl cursor-pointer order-3 text-blue-500"></i>
+      </div>
+      <div id="days-week" class="flex justify-between mt-10">
+          <div id="monday" class="uppercase">Lun.</div>
+          <div id="tuesday" class="uppercase">Mar.</div>
+          <div id="wednesday" class="uppercase">Mer.</div>
+          <div id="thursday" class="uppercase">Jeu.</div>
+          <div id="friday" class="uppercase">Ven.</div>
+          <div id="saturday" class="uppercase">Sam.</div>
+          <div id="sunday" class="uppercase">Dim.</div>
+      </div>
+      <div id="days-month" class="mt-5 grid grid-cols-7 grid-rows-6 gap-x-2 md:gap-x-6 lg:gap-x-20 gap-y-4 bg-gray-100 hover:bg-blue-100 p-2 md:p-4 shadow-sm rounded-lg w-full overflow-x-auto"></div>
+      
+      </div>
+    </div>
+    <!-- MAIN SCRIPTING FILE -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
