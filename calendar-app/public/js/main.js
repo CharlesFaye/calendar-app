@@ -112,7 +112,7 @@ const addDaysStartingTuesday = () => {
       currentYear === date.getFullYear()
     ) {
       div.style.border = "2px solid #068ce6";
-      div.style.padding = "0px 5px 0px 5px";
+      div.style.padding = "0px 15px 0px 5px";
     }
     daysOfMonth.append(div);
     dayOne++;
